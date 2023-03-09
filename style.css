@@ -1,0 +1,152 @@
+* {
+  font-family: "Noto Sans TC";
+}
+
+body {
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-weight: bold;
+}
+
+nav.navbar {
+  transition: 0.5s;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top {
+  background-color: transparent;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a {
+  color: #2b2b2b;
+  transition: 0.5s;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
+  color: #5ca5ff;
+}
+
+header.jumbotron {
+  text-align: center;
+  background-image: url(https://www.gotokyo.org/tc/destinations/eastern-tokyo/images/area024_1000_78.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+}
+header.jumbotron .container {
+  backdrop-filter: blur(2px);
+  color: #2b2b2b;
+  padding: 200px 0px;
+}
+header.jumbotron hr {
+  max-width: 50px;
+  border: solid 5px #5ca5ff;
+}
+header.jumbotron h4 {
+  color: #ffffff;
+  font-weight: normal;
+}
+
+section {
+  padding: 50px 0px;
+}
+
+section#section_ask {
+  background-color: #5ca5ff;
+}
+section#section_ask .col-sm-5.img {
+  background-image: url(./Tokyo0.png);
+  height: 350px;
+  background-size: cover;
+  mix-blend-mode: multiply;
+}
+section#section_ask h2 {
+  margin-top: 130px;
+  padding: 0px 20px;
+}
+
+section#section_about img {
+  width: 100%;
+}
+section#section_about .img_wrap {
+  height: 140px;
+  overflow: hidden;
+}
+
+section#section_story {
+  background-color: #323f40;
+  color: white;
+  padding: 0;
+}
+section#section_story .col-sm-5 {
+  background-image: url(../Tokyo0.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 400px;
+  mix-blend-mode: color-dodge;
+}
+section#section_story .col-sm-5 .cross {
+  position: absolute;
+  left: 51%;
+  top: 45%;
+  color: red;
+  font-weight: bold;
+  font-size: 30px;
+}
+section#section_story .col-sm-7 {
+  text-align: center;
+}
+section#section_story .col-sm-7 i {
+  font-size: 40px;
+}
+section#section_story .col-sm-12.features {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+section#section_future img {
+  width: 100%;
+}
+section#section_future i {
+  font-size: 30px;
+}
+section#section_future .feature {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer.jumbotron {
+  text-align: center;
+  background-image: url(https://www.gotokyo.org/tc/see-and-do/nightlife/images/nightlife_1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+}
+footer.jumbotron input {
+  background-color: transparent;
+  max-width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer.jumbotron .container {
+  color: white;
+  padding: 60px 0px;
+}
+footer.jumbotron hr {
+  max-width: 50px;
+  border: solid 2px #5ca5ff;
+}
+footer.jumbotron .btn-success {
+  width: 150px;
+}
